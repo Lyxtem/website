@@ -20,9 +20,9 @@
 	let progress = 0
 
 	onMount(() => {
-		data = useLanyard('394953409855488012')
+		data = useLanyard('1197337512562139187')
 		pingPongWebsocket = setInterval(() => {
-			data = useLanyard('394953409855488012')
+			data = useLanyard('1197337512562139187')
 		}, PING_PONG_WEBSOCKET_RATE)
 		clear = setInterval(() => updateTimestamps($data), UPDATE_TIMESTAMPS_RATE)
 
